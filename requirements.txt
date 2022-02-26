@@ -1,7 +1,0 @@
-sklearn
-pandas
-matplotlib
-plotly
-numpy
-wordcloud
-bz2
