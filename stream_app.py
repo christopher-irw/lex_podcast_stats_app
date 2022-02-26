@@ -112,7 +112,7 @@ def data_analysis():
     st.markdown('''An app to explore the Lex Fridman Podcast.
 I created a few widgets to the some insights from podcast transcriptions.
 
-Note: The list will not be updated to the latest episode since the encoding phase isn't yet automated. Also some episodes are misssing since there
+Note: The list will not be updated to the latest episode since the encoding phase isn't automated yet. Also some episodes are misssing since there
 was no available transcription.
 ''')
 
