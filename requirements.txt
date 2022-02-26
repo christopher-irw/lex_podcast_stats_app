@@ -1,0 +1,8 @@
+sklearn
+pickle
+pandas
+matplotlib
+plotly
+numpy
+wordcloud
+bz2
