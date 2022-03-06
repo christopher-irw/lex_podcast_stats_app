@@ -109,8 +109,8 @@ def data_analysis():
   # Title
   with siteHeader:
     st.title('Lex Fridman Podcast NLP')
-    st.markdown('''An app to explore the Lex Fridman Podcast.
-I created a few widgets to the some insights from podcast transcriptions.
+    st.markdown('''An app to explore the [Lex Fridman Podcast](https://lexfridman.com/podcast/).
+I created a few widgets to get some insights from podcast transcriptions.
 
 Note: The list will not be updated to the latest episode since the encoding phase isn't automated yet. Also some episodes are misssing since there
 was no available transcription.
