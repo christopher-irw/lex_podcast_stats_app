@@ -197,5 +197,6 @@ improve performance.'''
 # page = st.sidebar.radio("Select your page", tuple(pages.keys()))
 
 # pages[page]()
+data_analysis()
 
 
