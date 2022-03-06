@@ -178,10 +178,24 @@ improve performance.'''
       #st.pyplot(get_closest(sel_pod2, n_words2))
       st.plotly_chart(get_closest(sel_pod2, n_words2))
 
-pages = {
-          "Podcast data analysis": data_analysis,
-        }
+# About page
+#def about():
 
+#  st.title("The project")
 
-pages[page]()
+# Other info
+#def future():
+#  st.title("Next steps...")
+
+# pages = {
+#          "Podcast data analysis": data_analysis,
+#          #"About the project": about,
+#          #"Next steps": future 
+#        }
+
+# st.sidebar.title("Menu")
+# page = st.sidebar.radio("Select your page", tuple(pages.keys()))
+
+# pages[page]()
+
 
