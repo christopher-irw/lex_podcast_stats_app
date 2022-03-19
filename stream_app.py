@@ -110,10 +110,13 @@ def data_analysis():
   with siteHeader:
     st.title('Lex Fridman Podcast NLP')
     st.markdown('''An app to explore the [Lex Fridman Podcast](https://lexfridman.com/podcast/).
-I created a few widgets to get some insights from podcast transcriptions.
+    
+    Some time ago, I was wondering if I could choose an episode based on its similarity with others that I had already listened to. So I decided to create a clustering of the episodes based on the text transcripts.
+    After downloading the data, I started doing some analysis and realised that there were a few interesting statistics about the episodes. Thus, I decided to create this set of widgets to have a look at the insights of each episode.
 
-Note: The list will not be updated to the latest episode since the encoding phase isn't automated yet. Also some episodes are misssing since there
-was no available transcription.
+    
+    Note: The list will not be updated to the latest episode since the encoding phase isn't automated yet. Also some episodes are misssing since there
+    was no available transcription.
 ''')
 
   # Cluster
@@ -135,7 +138,7 @@ improve performance.'''
   # Word search & count
   with FindWords:
     st.header("Word Search")
-    st.markdown("Here we can search for a term and the number of occurences...")
+    st.markdown("Here we can search for a term and the number of occurences.")
 
     w = st.text_input('Which word would you like to search for?', 'ai')
     rep = st.slider('Number of times that the word has been said?', min_value=1, max_value=1000, value=20, step=10)
@@ -170,6 +173,7 @@ improve performance.'''
   # Similarity
   with Simil:
     st.header("Find similar podcasts")
+    st.markdown("In this section, it is possible to find the most similar podcasts to the one in input. The metric used for similarity is the cosine distance between the text embeddings.")
     sel_pod2 = st.selectbox("Choose an episode", df["title"].tolist())
     n_words2 = st.slider("Number of similar episodes to plot", min_value=2, max_value=20, step=1, value=5)
     but_count2 = st.checkbox("Show", key="similcheck")
