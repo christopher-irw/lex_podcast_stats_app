@@ -111,11 +111,16 @@ def data_analysis():
     st.title('Lex Fridman Podcast NLP')
     st.markdown('''An app to explore the [Lex Fridman Podcast](https://lexfridman.com/podcast/).
     
-    Some time ago, I was wondering if I could choose an episode based on its similarity with others that I had already listened to. So I decided to create a clustering of the episodes based on the text transcripts.
-    After downloading the data, I started doing some analysis and realised that there were a few interesting statistics about the episodes. Thus, I decided to create this set of widgets to have a look at the insights of each episode.
+    Some time ago, I was wondering if I could choose an episode based on its similarity
+    with others that I had already listened to. So I decided to create a clustering of 
+    the episodes based on the text transcripts.
+    After downloading the data, I started doing some analysis and realised that there 
+    were a few interesting statistics about the episodes. Thus, I decided to create 
+    this set of widgets to have a look at the insights of each episode.
 
     
-    Note: The list will not be updated to the latest episode since the encoding phase isn't automated yet. Also some episodes are misssing since there
+    Note: The list will not be updated to the latest episode since the encoding phase isn't 
+    automated yet. Also some episodes are misssing since there
     was no available transcription.
 ''')
 
