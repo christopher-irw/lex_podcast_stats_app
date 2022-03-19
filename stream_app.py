@@ -115,7 +115,7 @@ def data_analysis():
     create a clustering of the episodes based on the text transcripts.''')
     st.markdown('''After downloading the data, I started doing some analysis and realised
     that there were a few interesting statistics about the episodes.
-    I decided to create a set of widgets and put them in this app.''')
+    Thus, I decided to create a set of widgets and put them in this app.''')
     st.markdown('''Note: The list will not be updated to the latest episode since
     the encoding phase isn't automated yet. Also some episodes are
     misssing since there was no available transcription.''')
