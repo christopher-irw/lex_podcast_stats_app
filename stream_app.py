@@ -109,7 +109,7 @@ def data_analysis():
   # Title
   with siteHeader:
     st.title('Lex Fridman Podcast NLP')
-    st.markdown('''An app to explore the [Lex Fridman Podcast](https://lexfridman.com/podcast/).
+    st.markdown("An app to explore the [Lex Fridman Podcast](https://lexfridman.com/podcast/).
     
     Some time ago, I was wondering if I could choose an episode based on
     its similarity with others that I had already listened to. So I
@@ -124,7 +124,7 @@ def data_analysis():
     Note: The list will not be updated to the latest episode since
     the encoding phase isn't automated yet. Also some episodes are
     misssing since there was no available transcription.
-''')
+")
 
   # Cluster
   with Clust:
